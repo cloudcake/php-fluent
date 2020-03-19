@@ -1,0 +1,15 @@
+{
+  "require": {
+    "laravel/helpers": "dev-master",
+    "ramsey/uuid": "^3.9",
+    "moontoast/math": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Helpers\\": "src/"
+    },
+    "files": [
+      "autoload.php"
+    ]
+  }
+}
