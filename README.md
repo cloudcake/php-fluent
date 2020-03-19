@@ -30,7 +30,7 @@ Usage of helpers follows this syntax for all [string helpers](https://github.com
 
 # Extras
 
-### Case-insensitive calls
+### Case-insensitivity - `ignoreCasing()`
 
 Sometimes it's useful to call helpers ignoring the casing of strings, you can do this by chaining `->ignoreCasing()` before executing the function on the string.
 
