@@ -1,4 +1,12 @@
 {
+  "name": "cloudcake/php-fluent",
+  "description": "Developer-experience focused string and array manipulation.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "name": "Stephen Lake",
+    "email": "stephen-lake@live.com"
+  }],
   "require": {
     "laravel/helpers": "dev-master",
     "ramsey/uuid": "^3.9",
