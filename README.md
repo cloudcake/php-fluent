@@ -31,18 +31,18 @@ Usage of helpers follows this syntax for all [string helpers](https://github.com
 
 # Extras
 
-### Case-insensitivity `ignoreCasing()`
+### Ignore Casing
 
 Sometimes it's useful to call helpers ignoring the casing of strings, you can do this by chaining `->ignoreCasing()` before executing the function on the string. This provides a cleaner solution than changing the casing on every string yourself.
 
 Example:
 
 ```php
-str('tHiS is my string')->ignoreCasing()->startsWith('THIS'); // Returns true
-str('tHiS is my string')->startsWith('THIS'); // Returns false
+str('tHiS is my string')->ignoreCasing()->startsWith('THIS'); // true
+str('tHiS is my string')->startsWith('THIS'); // false
 ```
 
-### Mutliple calls `produce(3)`
+### Produce many
 
 There may be instances where you need to execute the same thing 10 times, for example let's say you need to generate 10 UUID's, rather than calling the function 10 times, you may use `produce(10)` method.
 
@@ -51,7 +51,6 @@ Example:
 ```php
 str()->produce(10)->uuid();
 
-// Returns
 // Array
 // (
 //     [0] => fc91fe0a-4254-4792-9604-e5fbf223d0a7
