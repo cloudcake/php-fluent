@@ -2,8 +2,7 @@
 
 Developer-experience focused string and array manipulation. Fluent is an
 extremely thin wrapper around laravel/helpers with some extras that exposes two global functions
-(`str()` and `arr()`) rather than the plethora of available helpers allowing use
-of more fluent-like syntax.
+(`str()` and `arr()`) rather than the plethora of available helpers.
 
 If you dislike global functions, stick to [laravel/helpers](https://github.com/laravel/helpers) - it has (recently added) fluent-like syntax without the extras.
 
