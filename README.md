@@ -29,6 +29,10 @@ Previously:
 use Illuminate\Support\Str;
 
 Str::startsWith('This is my string', 'This'); // true
+
+// or (New)
+
+Str::of('This is my string')->startsWith('This'); // true
 ```
 
 Currently:
