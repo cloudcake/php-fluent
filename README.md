@@ -44,7 +44,7 @@ str('tHiS is my string')->startsWith('THIS'); // false
 
 ### Produce many
 
-There may be instances where you need to execute the same thing 10 times, for example let's say you need to generate 10 UUID's, rather than calling the function 10 times, you may use `produce(10)` method.
+There may be instances where you need to execute the same thing many times, for example let's say you need 10 UUID's, rather than iterating over the function many times, you may use `produce()` method.
 
 Example:
 
