@@ -34,37 +34,3 @@ Currently:
 ```php
 str('This is my string')->startsWith('This'); // true
 ```
-
-# Some Examples
-
-## Strings
-
-```php
-str('I am error')->after('I '); // 'am error'
-str()->uuid(); // UUID
-str()->orderedUuid(); // Ordered UUID
-```
-
-## Arrays
-
-```php
-$array = [
-    'this' => [
-        'is' => [
-            'a' => [
-                'nested' => [
-                    'array' => 'yes'
-                ]
-            ]
-        ]
-    ],
-    'and' => 'this is not',
-];
-
-arr($array)->dot();
-// Array
-// (
-//     [this.is.a.nested.array] => yes
-//     [and] => this is not
-// )
-```
