@@ -9,7 +9,9 @@ of more fluent-like syntax.
 
 **Laravel is NOT required to use this package.**
 
-`composer require cloudcake/php-fluent`
+```shell
+composer require cloudcake/php-fluent
+```
 
 # Usage
 
@@ -22,8 +24,6 @@ provide a more consistent, readable syntax you won't forget.
 Previously:
 
 ```php
-<?php
-
 use Illuminate\Support\Str;
 
 Str::startsWith('This is my string', 'This'); // true
@@ -32,8 +32,6 @@ Str::startsWith('This is my string', 'This'); // true
 Currently:
 
 ```php
-<?php
-
 str('This is my string')->startsWith('This'); // true
 ```
 
@@ -42,8 +40,6 @@ str('This is my string')->startsWith('This'); // true
 ## Strings
 
 ```php
-<?php
-
 str('I am error')->after('I '); // 'am error'
 str()->uuid(); // UUID
 str()->orderedUuid(); // Ordered UUID
@@ -52,7 +48,6 @@ str()->orderedUuid(); // Ordered UUID
 ## Arrays
 
 ```php
-<?php
 $array = [
     'this' => [
         'is' => [
