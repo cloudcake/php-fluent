@@ -61,8 +61,8 @@ class FluentString
             $args = Arr::prepend($args, $str);
         }
 
-        if ($this->produce === 1) {
-            return   $this->bridge($method, $args);
+        if ($this->produce < 2) {
+            return $this->bridge($method, $args);
         }
 
         $results = [];
