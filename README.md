@@ -1,7 +1,7 @@
 # PHP Fluent
 
 Developer-experience focused string and array manipulation. Fluent is an
-extremely thin wrapper around laravel/helpers that exposes two global functions
+extremely thin wrapper around laravel/helpers with some extras that exposes two global functions
 (`str()` and `arr()`) rather than the plethora of available helpers allowing use
 of more fluent-like syntax.
 
@@ -22,20 +22,6 @@ documentation](https://laravel.com/docs/master/helpers#available-methods),
 however it is important to note the slight argument placement change. The
 constructing data is always placed inside the helper function. This is to
 provide a more consistent, readable syntax you won't forget.
-
-laravel/helpers:
-
-```php
-use Illuminate\Support\Str;
-
-Str::startsWith('This is my string', 'This'); // true
-
-// or (New)
-
-Str::of('This is my string')->startsWith('This'); // true
-```
-
-cloudcake/php-fluent:
 
 ```php
 str('This is my string')->startsWith('This'); // true
