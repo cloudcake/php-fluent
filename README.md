@@ -8,7 +8,7 @@ If you dislike global functions, stick to [laravel/helpers](https://github.com/l
 
 # Installation
 
-**Laravel is NOT required to use this package.**
+:cookie: Laravel is NOT required to use this package.
 
 ```shell
 composer require cloudcake/php-fluent
