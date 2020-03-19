@@ -5,7 +5,7 @@ extremely thin wrapper around laravel/helpers with some extras that exposes two 
 (`str()` and `arr()`) rather than the plethora of available helpers allowing use
 of more fluent-like syntax.
 
-If you hate the idea of more globally loaded functions, just stick to [laravel/helpers](https://github.com/laravel/helpers). It now has fluent-like syntax without the extras.
+If you hate the idea of global functions, just stick to [laravel/helpers](https://github.com/laravel/helpers). It has (recently added) fluent-like syntax without the extras.
 
 # Installation
 
