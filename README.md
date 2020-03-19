@@ -23,7 +23,7 @@ however it is important to note the slight argument placement change. The
 constructing data is always placed inside the helper function. This is to
 provide a more consistent, readable syntax you won't forget.
 
-Previously:
+laravel/helpers:
 
 ```php
 use Illuminate\Support\Str;
@@ -35,7 +35,7 @@ Str::startsWith('This is my string', 'This'); // true
 Str::of('This is my string')->startsWith('This'); // true
 ```
 
-Currently:
+cloudcake/php-fluent:
 
 ```php
 str('This is my string')->startsWith('This'); // true
