@@ -17,12 +17,15 @@ composer require cloudcake/php-fluent
 
 # Usage
 
-The full list of available methods are listed on the [Laravel Helpers
-documentation](https://laravel.com/docs/master/helpers#available-methods),
-however it is important to note the slight argument placement change. The
+It is important to note the slight argument placement change from the laravel/helpers package. The
 constructing data is always placed inside the helper function. This is to
 provide a more consistent, readable syntax you won't forget.
 
+Example:
 ```php
 str('This is my string')->startsWith('This'); // true
 ```
+
+Usage of helpers follows this syntax for all [string helpers](https://github.com/laravel/docs/blob/master/helpers.md#strings) as well as [array helpers](https://github.com/laravel/docs/blob/master/helpers.md#arrays), the only exceptions being where an argument isn't required, for example `str()->random()` or `str()->uuid()`.
+
+
