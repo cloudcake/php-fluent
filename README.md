@@ -5,6 +5,8 @@ extremely thin wrapper around laravel/helpers that exposes two global functions
 (`str()` and `arr()`) rather than the plethora of available helpers allowing use
 of more fluent-like syntax.
 
+If you hate the idea of more globally loaded functions, just stick to [laravel/helpers](https://github.com/laravel/helpers). It now has fluent-like syntax.
+
 # Installation
 
 **Laravel is NOT required to use this package.**
