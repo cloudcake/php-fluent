@@ -65,3 +65,5 @@ str()->produce(10)->uuid();
 //     [9] => e74a5362-e272-4af6-ba07-3d1f4352d653
 // )
 ```
+
+**Note**: If you use `1` as the produce value, the result will not be returned as an array.
