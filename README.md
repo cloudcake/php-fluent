@@ -28,4 +28,15 @@ str('This is my string')->startsWith('This'); // true
 
 Usage of helpers follows this syntax for all [string helpers](https://github.com/laravel/docs/blob/master/helpers.md#strings-1) as well as [array helpers](https://github.com/laravel/docs/blob/master/helpers.md#arrays--objects-1), the only exceptions being where an argument isn't required, for example `str()->random()` or `str()->uuid()`.
 
+# Extras
 
+### Case-insensitive calls
+
+Sometimes it's useful to call helpers ignoring the casing of strings, you can do this by chaining `->ignoreCasing()` before executing the function on the string.
+
+Example:
+
+```php
+str('tHiS is my string')->ignoreCasing()->startsWith('THIS'); // Returns true
+str('tHiS is my string')->startsWith('THIS'); // Returns false
+```
