@@ -31,7 +31,7 @@ Usage of helpers follows this syntax for all [string helpers](https://github.com
 
 # Extras
 
-### Ignore Casing
+### Ignore casing
 
 Sometimes it's useful to call helpers ignoring the casing of strings, you can do this by chaining `->ignoreCasing()` before executing the function on the string. This provides a cleaner solution than changing the casing on every string yourself.
 
